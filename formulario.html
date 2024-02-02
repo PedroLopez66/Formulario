@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{text-align: center;
+         background-color: aquamarine;}
+    </style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Pedro"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Lopez"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    Sexo:
+    <form>
+        <input type="radio" id="html" name="fav_language"
+    value="HTML">
+        <label for="html" >Hombre</label><br>
+        <input type="radio" id="css" name="fav_language"
+    value="CSS">
+        <label for="css">Mujer</label><br>
+        <input type="radio" id="javascript" name="fav_language"
+    value="JavaScript">
+        <label for="javascript">Prefiero no decirlo</label>
+    </form> 
+    <br>Tipo de vehículo que contienes:
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="">
+        <label for="vehicle1">Bici</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2">Coche</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3">Moto</label><br>
+    </form>
+    <form>
+        <p>Imagen de perfil: <input type="image"></p>
+        <p>Seleccione su color favorito: <input type="color"></p>
+        <p>Dirección email:</p>
+        <input type="email">
+        <p>Contraseña:</p>
+        <input type="password">
+        <p>Nº de teléfono:</p>
+        <input type="tel">
+        <p>Edad:</p>
+        <input type="number">
+        <p>Inserta tu currículum: <input type="file"></p>
+        <p>Introduce tu página web o blog: <input type="url"></p>
+        <p>Mes preferido para el viaje: <input type="month"></p>
+        <p>Lugar preferido para el viaje: <input type="search"></p>
+        <p><input type="week"></p>
+        <p>Fecha de envío de formulario:</p>
+        <input type="datetime-local">
+        <p>Nivel de conformidad:</p>
+        <input type="range">
+    <br>
+        <button onclick="resetForm()">Enviar Formulario</button> 
+    </form>
+</body>
+</html>
